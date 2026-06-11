@@ -11,7 +11,7 @@ const teamMembers = [
         name: 'David Chen',
         role: 'Head of Automation',
         bio: 'Expert in Selenium, Cypress, and AI-driven testing frameworks.',
-        image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+        image: '/images/Automation.jpg'
     },
     {
         name: 'Emily Rodriguez',
