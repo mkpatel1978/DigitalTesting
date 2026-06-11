@@ -21,10 +21,10 @@ const Footer = () => {
                     <div>
                         <h3 className="text-sm font-semibold text-gray-200 tracking-wider uppercase mb-4">Services</h3>
                         <ul className="space-y-3">
-                            <li><Link to="/services" className="text-base text-gray-400 hover:text-white transition-colors">Functional Testing</Link></li>
-                            <li><Link to="/services" className="text-base text-gray-400 hover:text-white transition-colors">Automation</Link></li>
-                            <li><Link to="/services" className="text-base text-gray-400 hover:text-white transition-colors">Security Audit</Link></li>
-                            <li><Link to="/services" className="text-base text-gray-400 hover:text-white transition-colors">Performance</Link></li>
+                            <li><Link to="/services" className="text-base text-gray-400 hover:text-white transition-colors">Functional & Non-Functional Testing</Link></li>
+                            <li><Link to="/services" className="text-base text-gray-400 hover:text-white transition-colors">Automation & RPA</Link></li>
+                            <li><Link to="/services" className="text-base text-gray-400 hover:text-white transition-colors">AI and Agentic Testing</Link></li>
+                            <li><Link to="/services" className="text-base text-gray-400 hover:text-white transition-colors">Project Management</Link></li>
                         </ul>
                     </div>
 
@@ -34,7 +34,7 @@ const Footer = () => {
                         <ul className="space-y-3">
                             <li><Link to="/about" className="text-base text-gray-400 hover:text-white transition-colors">About Us</Link></li>
                             <li><Link to="/about" className="text-base text-gray-400 hover:text-white transition-colors">Our Team</Link></li>
-                            <li><Link to="/contact" className="text-base text-gray-400 hover:text-white transition-colors">Carrers</Link></li>
+                            <li><Link to="/contact" className="text-base text-gray-400 hover:text-white transition-colors">Career</Link></li>
                             <li><Link to="/contact" className="text-base text-gray-400 hover:text-white transition-colors">Contact</Link></li>
                         </ul>
                     </div>
@@ -45,22 +45,22 @@ const Footer = () => {
                         <ul className="space-y-3">
                             <li className="flex items-center gap-2 text-gray-400">
                                 <Mail className="h-4 w-4 text-blue-500" />
-                                <span>info@qaproservices.com</span>
+                                <span>mayank.master@gmail.com</span>
                             </li>
                             <li className="flex items-center gap-2 text-gray-400">
                                 <Phone className="h-4 w-4 text-blue-500" />
-                                <span>+1 (555) 123-4567</span>
+                                <span>+91 9033464137</span>
                             </li>
                             <li className="flex items-center gap-2 text-gray-400">
                                 <MapPin className="h-4 w-4 text-blue-500" />
-                                <span>123 Tech Park, Suite 400<br />San Francisco, CA 94107</span>
+                                <span>Gujarat, India</span>
                             </li>
                         </ul>
                     </div>
                 </div>
 
                 <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center bg-gray-900">
-                    <p className="text-base text-gray-500">&copy; {new Date().getFullYear()} QA Pro Services. All rights reserved.</p>
+                    <p className="text-base text-gray-500">&copy; {new Date().getFullYear()} Digital - QA Pro Services. | All rights reserved.</p>
                     <div className="flex space-x-6 mt-4 md:mt-0">
                         <a href="#" className="text-gray-400 hover:text-white">
                             <span className="sr-only">Facebook</span>

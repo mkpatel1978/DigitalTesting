@@ -50,7 +50,7 @@ const Home = () => {
                         <span className="text-xl font-bold text-gray-400">Coming Soon</span>
                         <span className="text-xl font-bold text-gray-400">Coming Soon</span>
                         <span className="text-xl font-bold text-gray-400">Coming Soon</span>
-                        <span className="text-xl font-bold text-gray-400">Coming Soon</span>
+                        <span className="text-xl font-bold text-gray-400">Coming Soon   </span>
                     </div>
                 </div>
             </section>

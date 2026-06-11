@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { CheckCircle, Shield, Smartphone, Globe, Cpu, Terminal, Users, Accessibility } from 'lucide-react';
+import { CheckCircle, Shield, Smartphone, Globe, Cpu, Terminal, Users, Accessibility, Bot, Briefcase } from 'lucide-react';
 
 const servicesData = [
     {
@@ -46,9 +46,9 @@ const servicesData = [
     },
     {
         id: 7,
-        title: 'AI & LLM Testing',
+        title: 'AI, LLM & Agentic Testing',
         category: 'AI',
-        description: ' specialized testing for AI models and Large Language Models to ensure accuracy, safety, and bias mitigation.',
+        description: 'Specialized testing for AI models, Large Language Models, and autonomous agentic workflows to ensure accuracy, safety, and bias mitigation.',
         icon: <Cpu className="h-8 w-8 text-teal-500" />
     },
     {
@@ -64,10 +64,24 @@ const servicesData = [
         category: 'Accessibility',
         description: 'Ensure your digital products are fully accessible and compliant with WCAG 2.1 and ADA standards for all users.',
         icon: <Accessibility className="h-8 w-8 text-cyan-500" />
+    },
+    {
+        id: 10,
+        title: 'RPA Development',
+        category: 'Automation',
+        description: 'Design and deploy intelligent Robotic Process Automation (RPA) workflows to automate repetitive tasks, reduce manual errors, and scale your operations.',
+        icon: <Bot className="h-8 w-8 text-amber-500" />
+    },
+    {
+        id: 11,
+        title: 'Project Management',
+        category: 'Management',
+        description: 'Drive successful delivery with end-to-end management, employing Agile methodologies, clear communication, risk mitigation, and robust resource planning.',
+        icon: <Briefcase className="h-8 w-8 text-rose-500" />
     }
 ];
 
-const categories = ['All', 'Functional', 'Automation', 'performance', 'Security', 'Mobile', 'API', 'AI', 'Accessibility'];
+const categories = ['All', 'Functional', 'Automation', 'performance', 'Security', 'Mobile', 'API', 'AI', 'Accessibility', 'Management'];
 
 const Services = () => {
     const [activeCategory, setActiveCategory] = useState('All');
@@ -93,8 +107,8 @@ const Services = () => {
                             key={category}
                             onClick={() => setActiveCategory(category)}
                             className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-200 ${activeCategory === category
-                                    ? 'bg-blue-600 text-white shadow-md'
-                                    : 'bg-white text-gray-600 hover:bg-white hover:text-blue-600 border border-gray-200'
+                                ? 'bg-blue-600 text-white shadow-md'
+                                : 'bg-white text-gray-600 hover:bg-white hover:text-blue-600 border border-gray-200'
                                 }`}
                         >
                             {category.charAt(0).toUpperCase() + category.slice(1)}
