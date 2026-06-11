@@ -47,8 +47,8 @@ const Contact = () => {
                             </div>
                             <div>
                                 <h3 className="font-semibold text-xl">Email Us</h3>
-                                <p className="text-gray-300">info@qaproservices.com</p>
-                                <p className="text-gray-300">sales@qaproservices.com</p>
+                                <p className="text-gray-300">mayank.master@gmail.com</p>
+                                <p className="text-gray-300">Sales</p>
                             </div>
                         </div>
 
@@ -58,8 +58,8 @@ const Contact = () => {
                             </div>
                             <div>
                                 <h3 className="font-semibold text-xl">Call Us</h3>
-                                <p className="text-gray-300">+1 (555) 123-4567</p>
-                                <p className="text-gray-300">Mon-Fri, 9am - 6pm EST</p>
+                                <p className="text-gray-300">+91 9033464137</p>
+                                <p className="text-gray-300">Mon-Sat, 8am - 10pm IST</p>
                             </div>
                         </div>
 
@@ -70,8 +70,8 @@ const Contact = () => {
                             <div>
                                 <h3 className="font-semibold text-xl">Visit Us</h3>
                                 <p className="text-gray-300">
-                                    123 Tech Park, Suite 400<br />
-                                    San Francisco, CA 94107
+                                    Gujarat<br />
+                                    India
                                 </p>
                             </div>
                         </div>

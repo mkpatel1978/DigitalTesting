@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { CheckCircle, Shield, Smartphone, Globe, Cpu, Terminal, Users } from 'lucide-react';
+import { CheckCircle, Shield, Smartphone, Globe, Cpu, Terminal, Users, Accessibility } from 'lucide-react';
 
 const servicesData = [
     {
@@ -57,10 +57,17 @@ const servicesData = [
         category: 'Functional',
         description: 'Evaluate the user experience (UX) to ensure your product is intuitive and easy to use.',
         icon: <Users className="h-8 w-8 text-pink-500" />
+    },
+    {
+        id: 9,
+        title: 'Accessibility Testing',
+        category: 'Accessibility',
+        description: 'Ensure your digital products are fully accessible and compliant with WCAG 2.1 and ADA standards for all users.',
+        icon: <Accessibility className="h-8 w-8 text-cyan-500" />
     }
 ];
 
-const categories = ['All', 'Functional', 'Automation', 'performance', 'Security', 'Mobile', 'API', 'AI'];
+const categories = ['All', 'Functional', 'Automation', 'performance', 'Security', 'Mobile', 'API', 'AI', 'Accessibility'];
 
 const Services = () => {
     const [activeCategory, setActiveCategory] = useState('All');
