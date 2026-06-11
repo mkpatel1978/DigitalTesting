@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className="col-span-1 md:col-span-1">
                         <Link to="/" className="flex items-center gap-2 mb-4">
                             <ShieldCheck className="h-8 w-8 text-blue-500" />
-                            <span className="font-bold text-xl text-white tracking-tight">QA Pro Services</span>
+                            <span className="font-bold text-xl text-white tracking-tight">Digital - QA Pro Services</span>
                         </Link>
                         <p className="text-gray-400 text-sm leading-relaxed">
                             Leading the industry in software quality assurance and testing services. Ensuring your digital products are robust, secure, and user-friendly.

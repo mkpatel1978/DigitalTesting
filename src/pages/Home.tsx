@@ -46,11 +46,11 @@ const Home = () => {
                     <p className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-6">Trusted by innovative companies</p>
                     <div className="flex flex-wrap justify-center gap-8 md:gap-16 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
                         {/* Placeholders for logos */}
-                        <span className="text-xl font-bold text-gray-400">TechCorp</span>
-                        <span className="text-xl font-bold text-gray-400">InnovateX</span>
-                        <span className="text-xl font-bold text-gray-400">FinSecure</span>
-                        <span className="text-xl font-bold text-gray-400">HealthPlus</span>
-                        <span className="text-xl font-bold text-gray-400">EduGlobal</span>
+                        <span className="text-xl font-bold text-gray-400">Coming Soon</span>
+                        <span className="text-xl font-bold text-gray-400">Coming Soon</span>
+                        <span className="text-xl font-bold text-gray-400">Coming Soon</span>
+                        <span className="text-xl font-bold text-gray-400">Coming Soon</span>
+                        <span className="text-xl font-bold text-gray-400">Coming Soon</span>
                     </div>
                 </div>
             </section>
