@@ -8,22 +8,22 @@ const teamMembers = [
         image: '/images/MKPhoto.jpg'
     },
     {
-        name: 'David Chen',
+        name: 'MK Patel',
         role: 'Head of Automation',
         bio: 'Expert in Selenium, Cypress, and AI-driven testing frameworks.',
         image: '/images/Automation.jpg'
     },
     {
-        name: 'Emily Rodriguez',
+        name: 'Security Expert',
         role: 'Security QA Lead',
         bio: 'Certified Ethical Hacker with a passion for securing fintech apps.',
-        image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+        image: ''
     },
     {
-        name: 'Michael Chang',
+        name: 'Non Functional Expert',
         role: 'Performance Engineer',
         bio: 'Specializes in high-load systems and scalability optimization.',
-        image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+        image: ''
     }
 ];
 
